@@ -2,11 +2,13 @@ package wait
 
 import (
 	"context"
-	"github.com/spf13/cobra"
-	"gitlab.com/ptxmac/cobradig"
-	"gitlab.com/ptxmac/cobradig/demos/complex/lib/waiter"
-	"go.uber.org/dig"
 	"time"
+
+	"github.com/spf13/cobra"
+	"go.uber.org/dig"
+
+	"go.ptx.dk/cobradig"
+	"go.ptx.dk/cobradig/demos/complex/lib/waiter"
 )
 
 func AddCommands(parent *cobra.Command, cc *dig.Container) error {

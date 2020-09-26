@@ -2,13 +2,15 @@ package cmd
 
 import (
 	"context"
+
 	"github.com/spf13/cobra"
-	"gitlab.com/ptxmac/cobradig"
-	"gitlab.com/ptxmac/cobradig/demos/complex/cmd/echo"
-	"gitlab.com/ptxmac/cobradig/demos/complex/cmd/wait"
-	"gitlab.com/ptxmac/cobradig/demos/complex/flags"
 	"go.uber.org/dig"
 	"go.uber.org/multierr"
+
+	"go.ptx.dk/cobradig"
+	"go.ptx.dk/cobradig/demos/complex/cmd/echo"
+	"go.ptx.dk/cobradig/demos/complex/cmd/wait"
+	"go.ptx.dk/cobradig/demos/complex/flags"
 )
 
 func RootCmd(cc *dig.Container) (*cobra.Command, error) {
