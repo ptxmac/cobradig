@@ -1,9 +1,10 @@
 package flags
 
 import (
+	"time"
+
 	"github.com/spf13/cobra"
 	"go.uber.org/dig"
-	"time"
 )
 
 type Flags struct {

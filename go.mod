@@ -1,4 +1,4 @@
-module gitlab.com/ptxmac/cobradig
+module go.ptx.dk/cobradig
 
 go 1.14
 

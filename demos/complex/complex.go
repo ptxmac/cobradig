@@ -1,10 +1,12 @@
 package main
 
 import (
-	"gitlab.com/ptxmac/cobradig/demos/complex/cmd"
-	"gitlab.com/ptxmac/cobradig/demos/complex/lib/waiter"
-	"go.uber.org/dig"
 	"log"
+
+	"go.uber.org/dig"
+
+	"go.ptx.dk/cobradig/demos/complex/cmd"
+	"go.ptx.dk/cobradig/demos/complex/lib/waiter"
 )
 
 func main() {

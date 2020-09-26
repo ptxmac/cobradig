@@ -2,9 +2,11 @@ package echo
 
 import (
 	"fmt"
+
 	"github.com/spf13/cobra"
-	"gitlab.com/ptxmac/cobradig"
 	"go.uber.org/dig"
+
+	"go.ptx.dk/cobradig"
 )
 
 func AddCommands(parent *cobra.Command, cc *dig.Container) error {
